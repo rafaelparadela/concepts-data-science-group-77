@@ -30,12 +30,13 @@ Deadline June 14, 2026
 [GeeksforGeeks](https://www.geeksforgeeks.org/python/bloom-filters-introduction-and-python-implementation/)
 
 ## Formulas
-The probability that a bit is still zero after one insertion: $(1-\frac{1}{m})^k$
-The probability of a bit being zero after $n$ insertions: $(1-\frac{1}{m})^{nk}$
-Probability of False Positive: $(1-(1-\frac{1}{m})^{nk})^k$
-FP rate approximation: $(1-e^{-kn/m})^k$
-Optimized number of hash functions: $k=\ln(2)\frac{m}{n}$
-Bit array size: $m=-\frac{n\ln P}{(\ln2)^2}$ 
+
+The probability that a bit is still zero after one insertion: $$(1-\frac{1}{m})^k$$
+The probability of a bit being zero after $n$ insertions: $$(1-\frac{1}{m})^{nk}$$
+Probability of False Positive: $$(1-(1-\frac{1}{m})^{nk})^k$$
+FP rate approximation: $$(1-e^{-kn/m})^k$$
+Optimized number of hash functions: $$k=\ln(2)\frac{m}{n}$$
+Bit array size: $$m=-\frac{n\ln P}{(\ln2)^2}$$
 
 ## Time Complexity of a Bloom Filter 
 ### Insert operation
@@ -53,15 +54,16 @@ If $k$ is a **small constant** (like 5–10). $O(1)$ (constant time)
 1. Compute **k hash functions**
 2. Check **k bits**
 
-Time complexity: $O(k)$  
+Time complexity: $O(k)$
 If $k$ is a **small constant** (like 5–10). $O(1)$ (constant time)
 So lookups are **constant time**.
 
 ## Space Complexity
 
-A Bloom filter stores only the **bit array** of size (m)
-Memory used: $O(m)$
-Memory **does not grow with the number of elements stored directly**. Instead, we choose (m) in advance based on how many elements we expect.
+- A Bloom filter stores only the **bit array** of size (m)
+- Memory used: $O(m)$
+- Memory **does not grow with the number of elements stored directly**. Instead, we choose (m) in advance based on how many elements we expect.
+
 # Slurm notes
 
 A Slurm job script to run the `script.py` on HPC
@@ -96,5 +98,17 @@ scancel --cludter=wice <JOBID>
 # Q&A 20/03/26
 
 1. How to choose hash functions?
+> Least correlated + most uniform options. Hash functions from libraries are acceptable.
 2. How to generate test datasets of 2 datatypes?
+> No need to generate, find online. The test dataset for binary trees on Blackboard can be used 
 3. How many entries a large dataset contains?
+> ~20-50K, unrestricted
+
+Additional objective could be to benchmark bit arrays performance compared to lists
+
+# Potential datasets
+
+A word dataset for many languages, including Ukrainian [ml_spoken_languages](https://huggingface.co/datasets/MLCommons/ml_spoken_words)
+A dataset containing full sentences of varying lengths: [random_Sentence](https://huggingface.co/datasets/HuggingFace-DataSet/random_Sentence)
+A dataset with rsIDs of genetic variations: [ensembl_variations](https://huggingface.co/datasets/just-dna-seq/ensembl_variations/viewer/default/train?row=0)
+Zebra fish DNA sequences: [Zebrafish_DNA_v0](https://huggingface.co/datasets/davidcechak/Zebrafish_DNA_v0)
