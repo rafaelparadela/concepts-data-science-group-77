@@ -1,0 +1,12 @@
+{'dataset': 'english_words', 'items': 100, 'insert_time': 0.00039417, 'lookup_time': 0.00031176}
+{'dataset': 'english_words', 'items': 1000, 'insert_time': 0.00331495, 'lookup_time': 0.00465217}
+{'dataset': 'english_words', 'items': 10000, 'insert_time': 0.0283094, 'lookup_time': 0.03248926}
+{'dataset': 'english_words', 'items': 50000, 'insert_time': 0.13612882, 'lookup_time': 0.16688091}
+{'dataset': 'sentences', 'items': 100, 'insert_time': 0.00028993, 'lookup_time': 0.00030425}
+{'dataset': 'sentences', 'items': 1000, 'insert_time': 0.00268712, 'lookup_time': 0.00305977}
+{'dataset': 'sentences', 'items': 10000, 'insert_time': 0.03089914, 'lookup_time': 0.03671295}
+{'dataset': 'sentences', 'items': 50000, 'insert_time': 0.15140726, 'lookup_time': 0.16140523}
+{'dataset': 'dna', 'items': 100, 'insert_time': 0.00026733, 'lookup_time': 0.00030116}
+{'dataset': 'dna', 'items': 1000, 'insert_time': 0.00269796, 'lookup_time': 0.00304625}
+{'dataset': 'dna', 'items': 10000, 'insert_time': 0.02984733, 'lookup_time': 0.03064881}
+{'dataset': 'dna', 'items': 50000, 'insert_time': 0.14158359, 'lookup_time': 0.21114737}
