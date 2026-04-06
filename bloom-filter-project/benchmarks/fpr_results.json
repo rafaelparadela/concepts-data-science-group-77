@@ -1,0 +1,194 @@
+[
+  {
+    "dataset": "english_words",
+    "n_inserted": 100,
+    "load_factor": 0.001,
+    "fpr_measured": 0.0,
+    "fpr_theoretical": 0.0,
+    "over_capacity": false
+  },
+  {
+    "dataset": "english_words",
+    "n_inserted": 1000,
+    "load_factor": 0.01,
+    "fpr_measured": 0.0,
+    "fpr_theoretical": 2e-06,
+    "over_capacity": false
+  },
+  {
+    "dataset": "english_words",
+    "n_inserted": 5000,
+    "load_factor": 0.05,
+    "fpr_measured": 0.001,
+    "fpr_theoretical": 0.00108,
+    "over_capacity": false
+  },
+  {
+    "dataset": "english_words",
+    "n_inserted": 10000,
+    "load_factor": 0.1,
+    "fpr_measured": 0.017,
+    "fpr_theoretical": 0.011813,
+    "over_capacity": false
+  },
+  {
+    "dataset": "english_words",
+    "n_inserted": 17328,
+    "load_factor": 0.17328,
+    "fpr_measured": 0.056,
+    "fpr_theoretical": 0.062493,
+    "over_capacity": false
+  },
+  {
+    "dataset": "english_words",
+    "n_inserted": 25993,
+    "load_factor": 0.25993,
+    "fpr_measured": 0.182,
+    "fpr_theoretical": 0.174634,
+    "over_capacity": true
+  },
+  {
+    "dataset": "english_words",
+    "n_inserted": 34657,
+    "load_factor": 0.34657,
+    "fpr_measured": 0.311,
+    "fpr_theoretical": 0.3164,
+    "over_capacity": true
+  },
+  {
+    "dataset": "english_words",
+    "n_inserted": 43321,
+    "load_factor": 0.43321,
+    "fpr_measured": 0.429,
+    "fpr_theoretical": 0.459262,
+    "over_capacity": true
+  },
+  {
+    "dataset": "sentences",
+    "n_inserted": 100,
+    "load_factor": 0.001,
+    "fpr_measured": 0.0,
+    "fpr_theoretical": 0.0,
+    "over_capacity": false
+  },
+  {
+    "dataset": "sentences",
+    "n_inserted": 1000,
+    "load_factor": 0.01,
+    "fpr_measured": 0.0,
+    "fpr_theoretical": 2e-06,
+    "over_capacity": false
+  },
+  {
+    "dataset": "sentences",
+    "n_inserted": 5000,
+    "load_factor": 0.05,
+    "fpr_measured": 0.0,
+    "fpr_theoretical": 0.00108,
+    "over_capacity": false
+  },
+  {
+    "dataset": "sentences",
+    "n_inserted": 10000,
+    "load_factor": 0.1,
+    "fpr_measured": 0.0,
+    "fpr_theoretical": 0.011813,
+    "over_capacity": false
+  },
+  {
+    "dataset": "sentences",
+    "n_inserted": 17328,
+    "load_factor": 0.17328,
+    "fpr_measured": 0.0,
+    "fpr_theoretical": 0.062493,
+    "over_capacity": false
+  },
+  {
+    "dataset": "sentences",
+    "n_inserted": 25993,
+    "load_factor": 0.25993,
+    "fpr_measured": 0.0,
+    "fpr_theoretical": 0.174634,
+    "over_capacity": true
+  },
+  {
+    "dataset": "sentences",
+    "n_inserted": 34657,
+    "load_factor": 0.34657,
+    "fpr_measured": 0.0,
+    "fpr_theoretical": 0.3164,
+    "over_capacity": true
+  },
+  {
+    "dataset": "sentences",
+    "n_inserted": 43321,
+    "load_factor": 0.43321,
+    "fpr_measured": 0.0,
+    "fpr_theoretical": 0.459262,
+    "over_capacity": true
+  },
+  {
+    "dataset": "dna",
+    "n_inserted": 100,
+    "load_factor": 0.001,
+    "fpr_measured": 0.0,
+    "fpr_theoretical": 0.0,
+    "over_capacity": false
+  },
+  {
+    "dataset": "dna",
+    "n_inserted": 1000,
+    "load_factor": 0.01,
+    "fpr_measured": 0.0,
+    "fpr_theoretical": 2e-06,
+    "over_capacity": false
+  },
+  {
+    "dataset": "dna",
+    "n_inserted": 5000,
+    "load_factor": 0.05,
+    "fpr_measured": 0.002,
+    "fpr_theoretical": 0.00108,
+    "over_capacity": false
+  },
+  {
+    "dataset": "dna",
+    "n_inserted": 10000,
+    "load_factor": 0.1,
+    "fpr_measured": 0.01,
+    "fpr_theoretical": 0.011813,
+    "over_capacity": false
+  },
+  {
+    "dataset": "dna",
+    "n_inserted": 17328,
+    "load_factor": 0.17328,
+    "fpr_measured": 0.066,
+    "fpr_theoretical": 0.062493,
+    "over_capacity": false
+  },
+  {
+    "dataset": "dna",
+    "n_inserted": 25993,
+    "load_factor": 0.25993,
+    "fpr_measured": 0.164,
+    "fpr_theoretical": 0.174634,
+    "over_capacity": true
+  },
+  {
+    "dataset": "dna",
+    "n_inserted": 34657,
+    "load_factor": 0.34657,
+    "fpr_measured": 0.312,
+    "fpr_theoretical": 0.3164,
+    "over_capacity": true
+  },
+  {
+    "dataset": "dna",
+    "n_inserted": 43321,
+    "load_factor": 0.43321,
+    "fpr_measured": 0.473,
+    "fpr_theoretical": 0.459262,
+    "over_capacity": true
+  }
+]

@@ -8,3 +8,4 @@
 module load Python/3.12.1
 
 python -m benchmarks.benchmark
+python -m benchmarks.benchmark_fpr
