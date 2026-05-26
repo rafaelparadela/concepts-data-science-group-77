@@ -5,7 +5,8 @@ from bloomfilter.bloom_filter import BloomFilter
 
 
 # === Config ===
-FPR_TARGETS = [0.001, 0.005, 0.01, 0.02, 0.05, 0.1, 0.2]   # target false positive rates
+# target false positive rates
+FPR_TARGETS = [0.001, 0.005, 0.01, 0.02, 0.05, 0.1, 0.2]
 RANDOM_SEED = 42
 
 random.seed(RANDOM_SEED)
@@ -131,8 +132,8 @@ def run_compression_experiment(data, dataset_name):
 if __name__ == "__main__":
 
     english_words = load_data("data/english_words.txt")
-    sentences     = load_data("data/sentences.txt")
-    dna           = load_data("data/dna.txt")
+    sentences = load_data("data/sentences.txt")
+    dna = load_data("data/dna.txt")
 
     all_results = []
     all_results += run_compression_experiment(english_words, "english_words")
