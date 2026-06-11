@@ -1,6 +1,11 @@
 # concepts-data-science-group-77
 Concepts of Data Science - Group 77
 
+## Group Members
+
+- Valeriia Kantsypa (2503817)
+- Rafael do Souto Paradela (2508113)
+
 ## Optimization
 
 This Bloom Filter implementation utilizes an optimization developped by Kirsh and Mitzenmacher[1]. By utilizing a Poisson approximation, the authors successfully prove that the asymptotic false positive probability of their Double Hashing scheme converges to exactly the same formula as the standard Bloom filter: $(1−e^{−kn/m})^k$.
